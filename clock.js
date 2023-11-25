@@ -1,1 +1,1 @@
-
+const secondHand = document.querySelector('.sec-hand')
