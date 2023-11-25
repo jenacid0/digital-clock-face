@@ -16,6 +16,11 @@ function setClockFace(){
     const hours = now.getHours();
     const hoursDegrees = ((hours /60) * 360) + 90;
     hourHand.style.transform =`rotate(${hoursDegrees}deg)`;
+
+    var time = hours + ":" + minutes + ":" + seconds;
+    const digitalClockFace = document.querySelector('.time');
+    digitalClockFace.innerHTML = time;
 }
+
 //1000 millisecs is 1sec
 setInterval(setClockFace,1000);

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: digital-font;
+    src: url(digital-7.ttf);
+}
+
 html {
     background: url(anime1.jpg);
     background-size: cover;
@@ -66,4 +71,16 @@ body {
 
 .sec-hand {
     background: #4f81c5;
+}
+
+.digital-clock {
+    font-family: digital-font;
+    font-size: 12rem;
+    color: white;
+    width: 400px;
+}
+
+.time {
+    padding-right: 20px;
+    text-shadow: 2px 2px 4px black;
 }
