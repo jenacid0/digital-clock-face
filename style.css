@@ -61,7 +61,7 @@ body {
 
 .hour-hand {
     width: 30%;
-    height: 50%;
+    right: 50%;
 }
 
 .sec-hand {
